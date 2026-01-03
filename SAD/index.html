@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's Pizza & Grill | Fresh Pizza & Italian Food</title>
+    <meta name="description"
+        content="Family-owned pizza restaurant since 1995. Best pizza in town with fresh ingredients and authentic Italian flavors.">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Mike's Pizza & Grill">
+    <meta property="og:description" content="Fresh pizza made daily with family recipes since 1995">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+
+<body>
+    <!-- Skip to Content Link (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <a href="tel:+15551234567" aria-label="Call us">
+                        <i class="fas fa-phone"></i> (555) 123-4567
+                    </a>
+                    <span class="separator">|</span>
+                    <a href="https://maps.google.com" target="_blank" rel="noopener" aria-label="Our location">
+                        <i class="fas fa-map-marker-alt"></i> 123 Main Street
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Follow us on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" aria-label="Follow us on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="Follow us on Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="navbar" role="navigation" aria-label="Main navigation">
+                <a href="/" class="logo" aria-label="Mike's Pizza & Grill homepage">
+                    <div class="logo-icon">
+                        <i class="fas fa-pizza-slice" aria-hidden="true"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-title">Mike's Pizza & Grill</h1>
+                        <p class="logo-subtitle">Since 1995</p>
+                    </div>
+                </a>
+
+                <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+                    aria-controls="main-menu">
+                    <span class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                </button>
+
+                <ul class="nav-menu" id="main-menu" role="menubar">
+                    <li role="none">
+                        <a href="#home" class="nav-link active" role="menuitem" aria-current="page">
+                            <i class="fas fa-home" aria-hidden="true"></i> Home
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="#menu" class="nav-link" role="menuitem">
+                            <i class="fas fa-utensils" aria-hidden="true"></i> Menu
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="#about" class="nav-link" role="menuitem">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i> About
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a href="#contact" class="nav-link" role="menuitem">
+                            <i class="fas fa-address-book" aria-hidden="true"></i> Contact
+                        </a>
+                    </li>
+                    <li role="none" class="nav-cta">
+                        <a href="#order" class="btn btn-order" role="menuitem">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i> Order Online
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" role="region" aria-label="Welcome to Mike's Pizza">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">Fresh Pizza Made Daily</h2>
+                    <p class="hero-subtitle">Family recipes, quality ingredients, and authentic Italian flavors since
+                        1995</p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary btn-large">
+                            <i class="fas fa-utensils" aria-hidden="true"></i> View Full Menu
+                        </a>
+                        <a href="#order" class="btn btn-secondary btn-large">
+                            <i class="fas fa-bolt" aria-hidden="true"></i> Order Now
+                        </a>
+                    </div>
+
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span>Open until 10 PM</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-car" aria-hidden="true"></i>
+                            <span>Free Delivery</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf" aria-hidden="true"></i>
+                            <span>Fresh Ingredients</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Delicious pepperoni pizza fresh from the oven" loading="lazy">
+                        <div class="image-badge">
+                            <span class="badge-text">#1 in Town</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" role="region" aria-label="Restaurant statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="28">0</div>
+                    <div class="stat-label">Years Serving</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="10000">0+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="50">0+</div>
+                    <div class="stat-label">Menu Items</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Star Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <main id="main-content" class="main-content" role="main">
+        <section class="menu-section" id="menu" role="region" aria-label="Our menu">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Delicious Menu</h2>
+                    <p class="section-subtitle">All pizzas made fresh daily with homemade dough and locally sourced
+                        ingredients</p>
+                </div>
+
+                <!-- Menu Categories -->
+                <div class="category-filters" role="tablist" aria-label="Menu categories">
+                    <button class="category-btn active" data-category="all" role="tab" aria-selected="true">
+                        <i class="fas fa-star" aria-hidden="true"></i> All Items
+                    </button>
+                    <button class="category-btn" data-category="pizza" role="tab" aria-selected="false">
+                        <i class="fas fa-pizza-slice" aria-hidden="true"></i> Pizzas
+                    </button>
+                    <button class="category-btn" data-category="pasta" role="tab" aria-selected="false">
+                        <i class="fas fa-utensils" aria-hidden="true"></i> Pastas
+                    </button>
+                    <button class="category-btn" data-category="sides" role="tab" aria-selected="false">
+                        <i class="fas fa-drumstick-bite" aria-hidden="true"></i> Sides
+                    </button>
+                    <button class="category-btn" data-category="drinks" role="tab" aria-selected="false">
+                        <i class="fas fa-glass-whiskey" aria-hidden="true"></i> Drinks
+                    </button>
+                </div>
+
+                <!-- Search Box -->
+                <div class="menu-search">
+                    <div class="search-box">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <input type="text" id="menu-search" placeholder="Search menu items..."
+                            aria-label="Search menu items">
+                        <button class="search-clear" aria-label="Clear search">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Grid -->
+                <div class="menu-grid" id="menu-container" role="feed" aria-label="Menu items list">
+                    <!-- Menu items will be loaded here by JavaScript -->
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more">
+                    <button class="btn btn-outline" id="load-more">
+                        <i class="fas fa-plus" aria-hidden="true"></i> Load More Items
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offers -->
+        <section class="offers" role="region" aria-label="Special offers">
+            <div class="container">
+                <h2 class="section-title">Today's Specials</h2>
+                <div class="offers-grid">
+                    <div class="offer-card">
+                        <div class="offer-badge">Limited Time</div>
+                        <div class="offer-content">
+                            <h3>Family Pizza Deal</h3>
+                            <p>Two large pizzas, garlic bread, and 2-liter soda</p>
+                            <div class="offer-price">
+                                <span class="old-price">$39.99</span>
+                                <span class="new-price">$29.99</span>
+                            </div>
+                            <button class="btn btn-primary offer-btn">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-badge">Weekend Special</div>
+                        <div class="offer-content">
+                            <h3>Buy 1 Get 1 Free</h3>
+                            <p>Buy any large pizza, get a medium cheese pizza free</p>
+                            <div class="offer-price">
+                                <span class="new-price">Starting at $14.99</span>
+                            </div>
+                            <button class="btn btn-primary offer-btn">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about" role="region" aria-label="About our restaurant">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Our Story</h2>
+                        <p>Founded in 1995 by Mike Santoro, our restaurant has been serving authentic Italian-American
+                            cuisine for over 28 years. What started as a small pizza shop has grown into a local
+                            favorite, known for our commitment to quality and family-friendly atmosphere.</p>
+                        <p>We still use Mike's original pizza dough recipe and source our ingredients locally whenever
+                            possible. Every dish is made to order with the same care and attention we've always
+                            provided.</p>
+
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-seedling" aria-hidden="true"></i>
+                                <h4>Fresh Ingredients</h4>
+                                <p>Locally sourced produce and meats</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-home" aria-hidden="true"></i>
+                                <h4>Family Owned</h4>
+                                <p>Operated by the Santoro family</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-award" aria-hidden="true"></i>
+                                <h4>Award Winning</h4>
+                                <p>Best Pizza 2022 & 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-image">
+                        <div class="image-gallery">
+                            <div class="gallery-main">
+                                <img src="https://images.unsplash.com/photo-1593246049226-ded77bf90326?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                    alt="Mike's Pizza restaurant interior" loading="lazy">
+                            </div>
+                            <div class="gallery-thumbs">
+                                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                                    alt="Pizza preparation" loading="lazy">
+                                <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                                    alt="Fresh ingredients" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials" role="region" aria-label="Customer testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="testimonial-text">"Best pizza in town! The crust is perfect and the ingredients
+                                are always fresh. Our family has been coming here for years."</p>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith">
+                                <div>
+                                    <h4>John Smith</h4>
+                                    <span>Regular Customer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- More testimonials would be added via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact" role="region" aria-label="Contact information">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2 class="section-title">Visit Us Today</h2>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Address</h4>
+                                    <address>
+                                        123 Main Street<br>
+                                        Anytown, USA 12345
+                                    </address>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-clock" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Hours</h4>
+                                    <dl class="hours-list">
+                                        <dt>Monday - Thursday:</dt>
+                                        <dd>11:00 AM - 9:00 PM</dd>
+                                        <dt>Friday - Saturday:</dt>
+                                        <dd>11:00 AM - 10:00 PM</dd>
+                                        <dt>Sunday:</dt>
+                                        <dd>12:00 PM - 8:00 PM</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:info@mikespizzagrill.com">info@mikespizzagrill.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h3>Send Us a Message</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="map-container">
+                    <div class="map">
+                        <!-- This would be a Google Maps iframe in production -->
+                        <div class="map-placeholder" role="img" aria-label="Map showing restaurant location">
+                            <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                            <p>Interactive map would be displayed here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-pizza-slice" aria-hidden="true"></i>
+                        <h3>Mike's Pizza & Grill</h3>
+                    </div>
+                    <p class="footer-description">Serving delicious pizza and Italian food since 1995. Family owned and
+                        operated.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#order">Order Online</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for special offers and updates</p>
+                    <form class="newsletter-form">
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+                            <button type="submit" aria-label="Subscribe">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; <span id="current-year">2024</span> Mike's Pizza & Grill. All rights reserved.</p>
+                    <p class="disclaimer">This is a redesigned website for educational purposes.</p>
+                </div>
+
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa" aria-label="Visa" title="Visa"></i>
+                    <i class="fab fa-cc-mastercard" aria-label="Mastercard" title="Mastercard"></i>
+                    <i class="fab fa-cc-amex" aria-label="American Express" title="American Express"></i>
+                    <i class="fab fa-cc-paypal" aria-label="PayPal" title="PayPal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div class="modal" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle" hidden>
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="orderModalTitle">Order Online</h2>
+                <button class="modal-close" aria-label="Close order modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Order form would go here -->
+                <p>Online ordering system would be implemented here with cart functionality.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Button -->
+    <button class="cart-fab" aria-label="View cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
